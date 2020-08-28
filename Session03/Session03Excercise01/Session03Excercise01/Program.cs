@@ -21,11 +21,11 @@ namespace Session03Excercise01
             do
             {
                 var value = integersValues[doWhileIndex];
-                Console.WriteLine($"Do while index {doWhileIndex} i arrayen {integersValuesName} har värdet");
+                Console.WriteLine($"Do while index {doWhileIndex} i arrayen {integersValues} har värdet");
 
                 doWhileIndex++;
             }
-            while (doWhileIndex)
+            while (doWhileIndex);
 
 
                 
